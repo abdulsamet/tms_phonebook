@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import requests
+from xml.etree import ElementTree as ET
 
 requests.packages.urllib3.disable_warnings()
-from xml.etree import ElementTree as ET
 
 headers = {'content-type': 'text/xml'}
 body = """
